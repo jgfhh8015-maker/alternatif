@@ -52,7 +52,7 @@ export default function BlogPost() {
                     {/* Featured Image */}
                     <div className="relative h-[400px] w-full mb-12 rounded-2xl overflow-hidden">
                         <Image
-                            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop"
+                            src="/optimized-realisations/nettoyage-haute-pression-departement-75-786.jpg"
                             alt="Cordiste équipé et sécurisé"
                             fill
                             className="object-cover"

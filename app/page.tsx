@@ -79,9 +79,9 @@ export default function Home() {
   };
 
   const heroImages = [
-    '/optimized-realisations/expert-travaux-acrobatiques-ile-de-france.jpg',
-    '/optimized-realisations/cordiste-monument-historique-paris.jpg',
-    '/optimized-realisations/nettoyage-vitres-acces-difficile.jpg',
+    '/optimized-realisations/ligne-de-vie-departement-60-439.jpg',
+    '/optimized-realisations/nettoyage-haute-pression-departement-75-786.jpg',
+    '/optimized-realisations/renovation-patrimoine-departement-78-533.jpg',
     '/optimized-realisations/securisation-site-filet-antichute.jpg',
   ];
 
@@ -196,12 +196,11 @@ export default function Home() {
             className="relative h-[600px] rounded-2xl overflow-hidden shadow-2xl"
           >
             <Image
-              src="/optimized-realisations/cordiste-monument-historique-paris.jpg"
+              src="/optimized-realisations/securisation-site-departement-91-937.jpg"
               alt="Travaux en hauteur"
               fill
-              className="object-cover hover:scale-110 transition-transform duration-700"
+              className="object-cover hover:scale-110 transition-transform duration-700 grayscale"
             />
-            <div className="absolute inset-0 bg-primary/10 mix-blend-overlay" />
           </motion.div>
         </div>
       </section>
@@ -360,7 +359,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="relative h-[400px] rounded-2xl overflow-hidden group">
               <Image
-                src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop"
+                src="/optimized-realisations/pose-pics-anti-pigeon-cordiste.jpg"
                 alt="Sécurité Cordiste"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-700"

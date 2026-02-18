@@ -13,35 +13,20 @@ export default function Photos() {
     // Optimized and SEO-renamed images from realizations
     const images = [
         '/optimized-realisations/cordiste-monument-historique-paris.jpg',
+        '/optimized-realisations/nettoyage-haute-pression-departement-75-786.jpg',
         '/optimized-realisations/renovation-patrimoine-departement-78-533.jpg',
         '/optimized-realisations/travaux-hauteur-maintenance-hlm.jpg',
-        '/optimized-realisations/cordiste-departement-78-16.jpg',
-        '/optimized-realisations/nettoyage-vitres-acces-difficile.jpg',
-        '/optimized-realisations/nettoyage-haute-pression-departement-75-786.jpg',
         '/optimized-realisations/securisation-site-filet-antichute.jpg',
-        '/optimized-realisations/securisation-site-departement-91-937.jpg',
         '/optimized-realisations/maconnerie-sur-corde-rejointoiement.jpg',
-        '/optimized-realisations/maconnerie-corde-departement-95-483.jpg',
-        '/optimized-realisations/purge-facade-urgence-78-91.jpg',
-        '/optimized-realisations/acces-difficile-departement-60-790.JPEG',
-        '/optimized-realisations/intervention-cordiste-batiment-industriel.jpg',
-        '/optimized-realisations/cordiste-departement-91-517.jpg',
-        '/optimized-realisations/pose-bache-evenementiel-hauteur.jpg',
-        '/optimized-realisations/expert-travaux-acrobatiques-ile-de-france.jpg',
-        '/optimized-realisations/travaux-hauteur-departement-02-705.jpg',
-        '/optimized-realisations/ravalement-facade-corde-versailles.jpg',
-        '/optimized-realisations/acces-difficile-departement-78-794.jpg',
-        '/optimized-realisations/inspection-toiture-acces-difficile.jpg',
-        '/optimized-realisations/toiture-zinc-departement-95-68.jpg',
         '/optimized-realisations/pose-pics-anti-pigeon-cordiste.jpg',
-        '/optimized-realisations/pose-filets-departement-02-806.jpg',
-        '/optimized-realisations/nettoyage-haute-pression-facade.jpg',
-        '/optimized-realisations/ligne-de-vie-departement-60-439.jpg',
-        '/optimized-realisations/installation-ligne-vie-securite.jpg',
+        '/optimized-realisations/intervention-cordiste-batiment-industriel.jpg',
+        '/optimized-realisations/pose-bache-evenementiel-hauteur.jpg',
+        '/optimized-realisations/toiture-zinc-departement-95-68.jpg',
         '/optimized-realisations/travaux-hauteur-departement-75-468.jpg',
-        '/optimized-realisations/reparation-fuite-acces-difficile.jpg',
-        '/optimized-realisations/maconnerie-corde-departement-02-207.jpg',
-        '/optimized-realisations/securisation-site-departement-60-932.jpg'
+        '/optimized-realisations/securisation-site-departement-91-937.jpg',
+        '/optimized-realisations/ravalement-facade-corde-versailles.jpg',
+
+        '/optimized-realisations/ligne-de-vie-departement-60-439.jpg'
     ];
 
     return (
