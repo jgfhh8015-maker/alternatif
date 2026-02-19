@@ -138,9 +138,9 @@ export default function Home() {
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-4 font-light tracking-wide">
               TRAVAUX SUR CORDES & D'ACCÈS DIFFICILE
             </p>
-            <p className="text-lg md:text-xl text-primary font-medium tracking-widest mb-6">
-              URGENCE 7/7 • SPÉCIALISTE 78 - 91 - 75 • 10 ANS D'EXPÉRIENCE
-            </p>
+            <div className="inline-block bg-orange-600 text-white px-6 py-2 rounded-lg font-bold tracking-widest mb-10 shadow-lg">
+              URGENCE 7/7 • 20 ANS D'EXPÉRIENCE
+            </div>
             <div className="flex flex-col items-center mb-10">
               <span className="text-xl md:text-2xl font-bold text-white mb-3">POUR TOUTE URGENCE :</span>
               <a
