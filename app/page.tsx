@@ -141,9 +141,15 @@ export default function Home() {
             <p className="text-lg md:text-xl text-primary font-medium tracking-widest mb-6">
               URGENCE 7/7 • SPÉCIALISTE 78 - 91 - 75 • 10 ANS D'EXPÉRIENCE
             </p>
-            <p className="text-xl md:text-2xl font-bold text-white mb-10">
-              POUR TOUTE URGENCE : <a href="tel:0613671878" className="text-primary hover:text-red-500 transition-colors">06 13 67 18 78</a>
-            </p>
+            <div className="flex flex-col items-center mb-10">
+              <span className="text-xl md:text-2xl font-bold text-white mb-3">POUR TOUTE URGENCE :</span>
+              <a
+                href="tel:0613671878"
+                className="bg-yellow-400 text-black text-2xl md:text-3xl font-black px-6 py-2 rounded-xl hover:bg-yellow-300 transition-colors shadow-lg transform hover:scale-105"
+              >
+                06 13 67 18 78
+              </a>
+            </div>
             <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
               <a
                 href="#contact"
