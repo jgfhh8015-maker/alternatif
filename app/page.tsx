@@ -138,8 +138,11 @@ export default function Home() {
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-4 font-light tracking-wide">
               TRAVAUX SUR CORDES & D'ACCÈS DIFFICILE
             </p>
-            <p className="text-lg md:text-xl text-primary font-medium tracking-widest mb-10">
+            <p className="text-lg md:text-xl text-primary font-medium tracking-widest mb-6">
               URGENCE 7/7 • SPÉCIALISTE 78 - 91 - 75 • 10 ANS D'EXPÉRIENCE
+            </p>
+            <p className="text-xl md:text-2xl font-bold text-white mb-10">
+              POUR TOUTE URGENCE : <a href="tel:0613671878" className="text-primary hover:text-red-500 transition-colors">06 13 67 18 78</a>
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
               <a
@@ -196,12 +199,87 @@ export default function Home() {
             className="relative h-[600px] rounded-2xl overflow-hidden shadow-2xl"
           >
             <Image
-              src="/optimized-realisations/securisation-site-departement-91-937.jpg"
+              src="/equipe/alex-gerant-acces-alternatif-cordiste-78.jpg"
               alt="Travaux en hauteur"
               fill
-              className="object-cover hover:scale-110 transition-transform duration-700 grayscale"
+              className="object-cover hover:scale-110 transition-transform duration-700"
             />
           </motion.div>
+        </div>
+      </section>
+
+      {/* Team Section */}
+      <section id="team" className="py-24 bg-background relative">
+        <div className="container-custom mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-sm font-bold text-primary uppercase tracking-widest mb-2">Notre Équipe</h2>
+            <h3 className="text-3xl md:text-4xl font-bold mb-4">EXPERTISE & COMPLÉMENTARITÉ</h3>
+            <p className="text-gray-400 max-w-2xl mx-auto">
+              Des profils experts et passionnés pour mener à bien tous vos projets.
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-3 gap-12 justify-items-center">
+            {[
+              {
+                name: 'Alex',
+                role: 'Président Directeur Général',
+                image: '/equipe/Alex2.png',
+                bio: "Cordiste aguerri et patron d'Acces Alternatif, il garantit l'excellence opérationnelle de chaque intervention.",
+                objectPosition: '50% 00%',
+                scale: 1.6
+              },
+              {
+                name: 'Léo',
+                role: 'Conducteur de Travaux',
+                image: '/equipe/Leo.jpg',
+                bio: "Expert en travaux d'accès difficile dans les Yvelines (78), Léo assure la conduite de vos chantiers avec sécurité et rigueur.",
+                objectPosition: 'center',
+                scale: 1
+              },
+              {
+                name: 'Marie',
+                role: 'Secrétaire Administrative',
+                image: '/equipe/marie.png',
+                bio: "Interlocutrice privilégiée, Marie assure une gestion fluide et réactive de tous vos dossiers administratifs.",
+                objectPosition: 'center',
+                scale: 1
+              }
+            ].map((member, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.2, duration: 0.6 }}
+                className="flex flex-col items-center text-center max-w-sm"
+              >
+                <div className="relative w-32 h-32 mb-6 rounded-full overflow-hidden border-4 border-primary/20 shadow-xl group hover:border-primary transition-colors duration-300">
+                  <Image
+                    src={member.image}
+                    alt={`${member.name} - ${member.role}`}
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-500"
+                    style={{
+                      objectPosition: member.objectPosition,
+                      transform: `scale(${member.scale})`
+                    }}
+                  />
+                </div>
+                <h4 className="text-xl font-bold text-white mb-2">{member.name}</h4>
+                <p className="text-primary font-medium text-sm uppercase tracking-wider mb-4">{member.role}</p>
+                <p className="text-gray-400 text-sm leading-relaxed">
+                  {member.bio}
+                </p>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -465,10 +543,11 @@ export default function Home() {
                 className="object-contain object-left"
               />
             </Link>
-            <p>© 2026 ACCES ALTERNATIF. Tous droits réservés.</p>
+            <p className="mb-1">© 2026 ACCES ALTERNATIF. Tous droits réservés.</p>
+            <p>SIREN : 833 017 700 00018</p>
           </div>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-white transition-colors">Mentions Légales</a>
+            <Link href="/cgv" className="hover:text-white transition-colors">CGV / Mentions Légales</Link>
             <a href="#" className="hover:text-white transition-colors">Politique de Confidentialité</a>
           </div>
         </div>

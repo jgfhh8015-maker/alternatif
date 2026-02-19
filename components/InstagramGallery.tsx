@@ -53,7 +53,19 @@ export default function InstagramGallery({ images }: GalleryProps) {
                             animate={{ opacity: 1, scale: 1 }}
                             exit={{ opacity: 0, scale: 1.05 }}
                             transition={{ duration: 0.7, ease: [0.32, 0.72, 0, 1] }}
-                            className="relative w-full h-full md:w-[85%] md:h-[90%] overflow-hidden bg-black/50 md:rounded-lg shadow-2xl"
+                            drag="x"
+                            dragConstraints={{ left: 0, right: 0 }}
+                            dragElastic={1}
+                            onDragEnd={(e, { offset, velocity }) => {
+                                const swipe = Math.abs(offset.x) * velocity.x;
+
+                                if (swipe < -10000) {
+                                    nextImage();
+                                } else if (swipe > 10000) {
+                                    prevImage();
+                                }
+                            }}
+                            className="relative w-full h-full md:w-[85%] md:h-[90%] overflow-hidden bg-black/50 md:rounded-lg shadow-2xl cursor-grab active:cursor-grabbing"
                         >
                             <Image
                                 src={images[currentIndex]}
@@ -103,8 +115,8 @@ export default function InstagramGallery({ images }: GalleryProps) {
                         key={idx}
                         onClick={() => setCurrentIndex(idx)}
                         className={`h-1 rounded-full transition-all duration-500 ${idx === currentIndex
-                                ? 'w-12 bg-primary'
-                                : 'w-2 bg-white/20 hover:bg-white/40'
+                            ? 'w-12 bg-primary'
+                            : 'w-2 bg-white/20 hover:bg-white/40'
                             }`}
                         aria-label={`Go to image ${idx + 1}`}
                     />
