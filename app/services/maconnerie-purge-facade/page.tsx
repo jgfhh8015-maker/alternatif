@@ -74,7 +74,7 @@ export default function Maconnerie() {
 
                     <div className="mt-20 bg-primary rounded-3xl p-12 text-center">
                         <h2 className="text-3xl font-bold text-white mb-4">Une façade fragilisée ?</h2>
-                        <p className="text-white/80 mb-8 max-w-2xl mx-auto">N'attendez pas l'accident. Nous intervenons en urgence pour la mise en sécurité.</p>
+                        <p className="text-white/80 mb-8 max-w-2xl mx-auto">N&apos;attendez pas l&apos;accident. Nous intervenons en urgence pour la mise en sécurité.</p>
                         <Link href="/#contact" className="bg-white text-primary px-8 py-4 rounded-full font-bold uppercase tracking-wider hover:bg-black hover:text-white transition-all shadow-xl">
                             Diagnostic & Devis Gratuit
                         </Link>

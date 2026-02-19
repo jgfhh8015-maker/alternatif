@@ -72,7 +72,7 @@ export default function Evenementiel() {
 
                     <div className="mt-20 bg-primary rounded-3xl p-12 text-center">
                         <h2 className="text-3xl font-bold text-white mb-4">Un projet événementiel complexe ?</h2>
-                        <p className="text-white/80 mb-8 max-w-2xl mx-auto">Nos riggers et cordistes vous accompagnent de l'étude à l'installation.</p>
+                        <p className="text-white/80 mb-8 max-w-2xl mx-auto">Nos riggers et cordistes vous accompagnent de l&apos;étude à l&apos;installation.</p>
                         <Link href="/#contact" className="bg-white text-primary px-8 py-4 rounded-full font-bold uppercase tracking-wider hover:bg-black hover:text-white transition-all shadow-xl">
                             Consulter un Expert
                         </Link>

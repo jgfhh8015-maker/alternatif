@@ -1,8 +1,8 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
-import { motion, AnimatePresence, useMotionValue, useTransform } from 'framer-motion';
-import { ChevronLeft, ChevronRight, X, Play, Maximize2 } from 'lucide-react';
+import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { ChevronLeft, ChevronRight, X, Maximize2 } from 'lucide-react';
 import Image from 'next/image';
 
 interface GalleryProps {
@@ -12,7 +12,6 @@ interface GalleryProps {
 export default function InstagramGallery({ images }: GalleryProps) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [lightboxOpen, setLightboxOpen] = useState(false);
-    const containerRef = useRef<HTMLDivElement>(null);
 
     const nextImage = () => {
         setCurrentIndex((prev) => (prev + 1) % images.length);

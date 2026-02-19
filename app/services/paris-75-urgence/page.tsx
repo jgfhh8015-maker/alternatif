@@ -37,7 +37,7 @@ export default function Paris() {
                                 PARIS (75) <span className="text-primary block">& ACCÈS EXIGU</span>
                             </h1>
                             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                                L'expertise du travail sur corde adaptée à la densité parisienne. Nous intervenons là où les nacelles et échafaudages ne passent pas.
+                                L&apos;expertise du travail sur corde adaptée à la densité parisienne. Nous intervenons là où les nacelles et échafaudages ne passent pas.
                             </p>
 
                             <div className="space-y-6 bg-surface-highlight/5 p-8 rounded-2xl border border-white/5">

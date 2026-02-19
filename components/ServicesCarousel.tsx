@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import {
     Building2, Hammer, ShieldCheck, Tent,
     Landmark, Factory, Siren,
@@ -25,7 +25,7 @@ const services = [
     {
         icon: ShieldCheck,
         title: 'Sécurisation',
-        desc: 'Pose de filets antichute, lignes de vie et points d\'ancrage.',
+        desc: 'Pose de filets antichute, lignes de vie et points d&apos;ancrage.',
         href: '/services/securisation-site-filets'
     },
     {

@@ -37,7 +37,7 @@ export default function NettoyageVitres() {
                                 NETTOYAGE DE <span className="text-primary block">VITRES EN HAUTEUR</span>
                             </h1>
                             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                                Redonnez de l'éclat à vos façades vitrées. Nos techniciens cordistes interviennent sur les surfaces les plus inaccessibles avec une finition impeccable, sans trace, et en toute sécurité.
+                                Redonnez de l&apos;éclat à vos façades vitrées. Nos techniciens cordistes interviennent sur les surfaces les plus inaccessibles avec une finition impeccable, sans trace, et en toute sécurité.
                             </p>
 
                             <div className="space-y-6 bg-surface-highlight/5 p-8 rounded-2xl border border-white/5">
@@ -71,7 +71,7 @@ export default function NettoyageVitres() {
                     <InstagramGallery images={galleryImages} />
 
                     <div className="mt-20 bg-primary rounded-3xl p-12 text-center">
-                        <h2 className="text-3xl font-bold text-white mb-4">Besoin d'un devis pour vos vitres ?</h2>
+                        <h2 className="text-3xl font-bold text-white mb-4">Besoin d&apos;un devis pour vos vitres ?</h2>
                         <p className="text-white/80 mb-8 max-w-2xl mx-auto">Réponse sous 24h. Intervention possible 7j/7 en Île-de-France.</p>
                         <Link href="/#contact" className="bg-white text-primary px-8 py-4 rounded-full font-bold uppercase tracking-wider hover:bg-black hover:text-white transition-all shadow-xl">
                             Demander un devis gratuit

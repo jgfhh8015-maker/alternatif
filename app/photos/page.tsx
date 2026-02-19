@@ -40,7 +40,7 @@ export default function Photos() {
                             Nos Réalisations <span className="text-primary">Photos</span>
                         </h1>
                         <p className="text-xl text-gray-300 mb-8">
-                            De la restauration de <strong>Monuments Historiques</strong> à la maintenance de parcs <strong>HLM</strong>, en passant par l'industrie.
+                            De la restauration de <strong>Monuments Historiques</strong> à la maintenance de parcs <strong>HLM</strong>, en passant par l&apos;industrie.
                         </p>
                     </div>
 

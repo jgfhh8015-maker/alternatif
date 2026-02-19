@@ -12,6 +12,12 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Node.js utility scripts (use CommonJS require, not part of the app)
+    "generate_logos.js",
+    "optimize_images.js",
+    "optimize_images_size.js",
+    "process_photos_seo.js",
+    "new_images_list.js",
   ]),
 ]);
 

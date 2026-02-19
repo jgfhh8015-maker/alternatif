@@ -37,7 +37,7 @@ export default function Patrimoine() {
                                 PATRIMOINE <span className="text-primary block">& BÂTI ANCIEN</span>
                             </h1>
                             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                                Interventions délicates sur bâtiments classés et monuments historiques dans les Yvelines (78) et l'Eure (27). Nous allions techniques alpines et respect des matériaux anciens.
+                                Interventions délicates sur bâtiments classés et monuments historiques dans les Yvelines (78) et l&apos;Eure (27). Nous allions techniques alpines et respect des matériaux anciens.
                             </p>
 
                             <div className="space-y-6 bg-surface-highlight/5 p-8 rounded-2xl border border-white/5">

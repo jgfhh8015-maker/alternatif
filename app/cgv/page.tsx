@@ -32,7 +32,7 @@ export default function CGV() {
                                 <h2 className="text-2xl font-bold text-white mb-4">1. Préambule et Identification</h2>
                                 <p>
                                     Les présentes Conditions Générales de Vente (CGV) régissent les relations contractuelles entre la société **ACCES ALTERNATIF** et ses clients.<br />
-                                    Elles s'appliquent à toutes les prestations de travaux sur cordes, travaux en hauteur, nettoyage et maintenance proposées par la société.
+                                    Elles s&apos;appliquent à toutes les prestations de travaux sur cordes, travaux en hauteur, nettoyage et maintenance proposées par la société.
                                 </p>
                                 <ul className="list-disc pl-6 space-y-2 mt-4">
                                     <li><strong>Dénomination sociale :</strong> ACCES ALTERNATIF</li>
@@ -49,19 +49,19 @@ export default function CGV() {
                             </section>
 
                             <section className="mb-8">
-                                <h2 className="text-2xl font-bold text-white mb-4">2. Objet et Champ d'application</h2>
+                                <h2 className="text-2xl font-bold text-white mb-4">2. Objet et Champ d&apos;application</h2>
                                 <p>
-                                    Toute commande de travaux ou de prestations de services implique l'acceptation sans réserve par le client (ci-après le "Client") et son adhésion pleine et entière aux présentes CGV, qui prévalent sur tout autre document du Client, et notamment sur toutes conditions générales d'achat, sauf accord dérogatoire exprès et préalable d'ACCES ALTERNATIF.
+                                    Toute commande de travaux ou de prestations de services implique l&apos;acceptation sans réserve par le client (ci-après le &quot;Client&quot;) et son adhésion pleine et entière aux présentes CGV, qui prévalent sur tout autre document du Client, et notamment sur toutes conditions générales d&apos;achat, sauf accord dérogatoire exprès et préalable d&apos;ACCES ALTERNATIF.
                                 </p>
                             </section>
 
                             <section className="mb-8">
                                 <h2 className="text-2xl font-bold text-white mb-4">3. Devis et Commandes</h2>
                                 <p>
-                                    Nos prestations donnent lieu à l'établissement préalable d'un devis gratuit, valable pour une durée de **30 jours** à compter de sa date d'émission, sauf stipulation contraire.
+                                    Nos prestations donnent lieu à l&apos;établissement préalable d&apos;un devis gratuit, valable pour une durée de **30 jours** à compter de sa date d&apos;émission, sauf stipulation contraire.
                                 </p>
                                 <p className="mt-2">
-                                    La commande est considérée comme définitivement acceptée dès la réception par ACCES ALTERNATIF du devis daté et signé par le Client, revêtu de la mention "Bon pour accord" et du cachet commercial (pour les professionnels), accompagné le cas échéant de l'acompte demandé.
+                                    La commande est considérée comme définitivement acceptée dès la réception par ACCES ALTERNATIF du devis daté et signé par le Client, revêtu de la mention &quot;Bon pour accord&quot; et du cachet commercial (pour les professionnels), accompagné le cas échéant de l&apos;acompte demandé.
                                 </p>
                             </section>
 
@@ -75,10 +75,10 @@ export default function CGV() {
                                         <strong>Paiement :</strong> Sauf convention contraire, les factures sont payables à 30 jours date de facture par virement bancaire ou chèque.
                                     </li>
                                     <li>
-                                        <strong>Acomptes :</strong> Un acompte de 30% à 50% peut être exigé à la commande, selon la nature et l'importance du chantier.
+                                        <strong>Acomptes :</strong> Un acompte de 30% à 50% peut être exigé à la commande, selon la nature et l&apos;importance du chantier.
                                     </li>
                                     <li>
-                                        <strong>Retard de paiement :</strong> En cas de retard de paiement, des pénalités de retard égales à 3 fois le taux d'intérêt légal seront exigibles de plein droit, ainsi qu'une indemnité forfaitaire pour frais de recouvrement de 40€ (Art. D.441-5 du Code de Commerce).
+                                        <strong>Retard de paiement :</strong> En cas de retard de paiement, des pénalités de retard égales à 3 fois le taux d&apos;intérêt légal seront exigibles de plein droit, ainsi qu&apos;une indemnité forfaitaire pour frais de recouvrement de 40€ (Art. D.441-5 du Code de Commerce).
                                     </li>
                                 </ul>
                             </section>
@@ -86,24 +86,24 @@ export default function CGV() {
                             <section className="mb-8">
                                 <h2 className="text-2xl font-bold text-white mb-4">5. Exécution des Travaux et Délais</h2>
                                 <p>
-                                    ACCES ALTERNATIF s'engage à mettre en œuvre tous les moyens nécessaires à la bonne exécution des travaux commandés (obligation de moyens).
+                                    ACCES ALTERNATIF s&apos;engage à mettre en œuvre tous les moyens nécessaires à la bonne exécution des travaux commandés (obligation de moyens).
                                 </p>
                                 <p className="mt-2">
-                                    Les délais d'exécution sont donnés à titre indicatif. Ils peuvent être remis en cause par des intempéries (vent fort, pluie, gel) rendant les travaux sur cordes dangereux ou impossibles, des cas de force majeure, ou des retards liés à d'autres corps d'état.
+                                    Les délais d&apos;exécution sont donnés à titre indicatif. Ils peuvent être remis en cause par des intempéries (vent fort, pluie, gel) rendant les travaux sur cordes dangereux ou impossibles, des cas de force majeure, ou des retards liés à d&apos;autres corps d&apos;état.
                                 </p>
                             </section>
 
                             <section className="mb-8">
                                 <h2 className="text-2xl font-bold text-white mb-4">6. Sécurité et Accès</h2>
                                 <p>
-                                    Le Client s'engage à faciliter l'accès au chantier pour les équipes d'ACCES ALTERNATIF. Si des autorisations spécifiques (voirie, copropriété) sont nécessaires, elles sont à la charge du Client, sauf accord contraire spécifié au devis.
+                                    Le Client s&apos;engage à faciliter l&apos;accès au chantier pour les équipes d&apos;ACCES ALTERNATIF. Si des autorisations spécifiques (voirie, copropriété) sont nécessaires, elles sont à la charge du Client, sauf accord contraire spécifié au devis.
                                 </p>
                             </section>
 
                             <section className="mb-8">
                                 <h2 className="text-2xl font-bold text-white mb-4">7. Réception des Travaux</h2>
                                 <p>
-                                    La réception des travaux a lieu dès la fin de l'intervention. Elle donne lieu à l'établissement d'un procès-verbal ou d'un bon d'intervention signé par les deux parties.
+                                    La réception des travaux a lieu dès la fin de l&apos;intervention. Elle donne lieu à l&apos;établissement d&apos;un procès-verbal ou d&apos;un bon d&apos;intervention signé par les deux parties.
                                 </p>
                             </section>
 
@@ -117,14 +117,14 @@ export default function CGV() {
                             <section className="mb-8">
                                 <h2 className="text-2xl font-bold text-white mb-4">9. Propriété Intellectuelle (Photos)</h2>
                                 <p>
-                                    Sauf refus exprès du Client, ACCES ALTERNATIF se réserve le droit de prendre des photos des travaux réalisés pour ses références commerciales (site internet, réseaux sociaux), en veillant à l'anonymat du lieu si demandé.
+                                    Sauf refus exprès du Client, ACCES ALTERNATIF se réserve le droit de prendre des photos des travaux réalisés pour ses références commerciales (site internet, réseaux sociaux), en veillant à l&apos;anonymat du lieu si demandé.
                                 </p>
                             </section>
 
                             <section className="mb-8">
                                 <h2 className="text-2xl font-bold text-white mb-4">10. Litiges</h2>
                                 <p>
-                                    En cas de litige, les parties s'efforceront de trouver une solution amiable. À défaut, le tribunal compétent sera celui du siège social d'ACCES ALTERNATIF (Evreux).
+                                    En cas de litige, les parties s&apos;efforceront de trouver une solution amiable. À défaut, le tribunal compétent sera celui du siège social d&apos;ACCES ALTERNATIF (Evreux).
                                 </p>
                             </section>
                         </div>

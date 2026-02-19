@@ -3,19 +3,13 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  Building2,
-  Factory,
-  Droplets,
-  ShieldCheck,
   CheckCircle2,
   Zap,
   Award,
   Phone,
   Mail,
   MapPin,
-  ArrowRight,
-  Hammer,
-  Tent
+  ArrowRight
 } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -30,12 +24,7 @@ export default function Home() {
     transition: { duration: 0.6 }
   };
 
-  const stagger = {
-    initial: { opacity: 0 },
-    whileInView: { opacity: 1 },
-    viewport: { once: true },
-    transition: { staggerChildren: 0.2 }
-  };
+
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -92,7 +81,7 @@ export default function Home() {
       setCurrentHeroIndex((prev) => (prev + 1) % heroImages.length);
     }, 5000);
     return () => clearInterval(timer);
-  }, []);
+  }, [heroImages.length]);
 
   return (
     <div className="min-h-screen bg-background text-foreground font-sans selection:bg-primary selection:text-white">
@@ -136,10 +125,10 @@ export default function Home() {
               ACCES <span className="text-primary block md:inline">ALTERNATIF</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-4 font-light tracking-wide">
-              TRAVAUX SUR CORDES & D'ACCÈS DIFFICILE
+              TRAVAUX SUR CORDES & D&apos;ACCÈS DIFFICILE
             </p>
             <div className="inline-block bg-orange-600 text-white px-6 py-2 rounded-lg font-bold tracking-widest mb-10 shadow-lg">
-              URGENCE 7/7 • 20 ANS D'EXPÉRIENCE
+              URGENCE 7/7 • 20 ANS D&apos;EXPÉRIENCE
             </div>
             <div className="flex flex-col items-center mb-10">
               <span className="text-xl md:text-2xl font-bold text-white mb-3">POUR TOUTE URGENCE :</span>
@@ -173,16 +162,16 @@ export default function Home() {
         <div className="container-custom mx-auto grid md:grid-cols-2 gap-16 items-center">
           <motion.div {...fadeInUp}>
             <h2 className="text-sm font-bold text-primary uppercase tracking-widest mb-2">À Propos</h2>
-            <h3 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">L'ÉQUILIBRE <br />ENTRE DEUX MONDES</h3>
+            <h3 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">L&apos;ÉQUILIBRE <br />ENTRE DEUX MONDES</h3>
             <div className="space-y-4 text-gray-400 text-lg leading-relaxed mb-6">
               <p>
-                Alex, 47 ans. Mon parcours est né d'une double passion : la rigueur du <strong>BTP</strong> et la liberté du <strong>parapente</strong>.
+                Alex, 47 ans. Mon parcours est né d&apos;une double passion : la rigueur du <strong>BTP</strong> et la liberté du <strong>parapente</strong>.
               </p>
               <p>
-                Après des années à construire au sol et autant à voler dans les airs, j'ai investi toute mon énergie dans le trait d'union parfait entre ces deux univers : <strong>la corde</strong>.
+                Après des années à construire au sol et autant à voler dans les airs, j&apos;ai investi toute mon énergie dans le trait d&apos;union parfait entre ces deux univers : <strong>la corde</strong>.
               </p>
               <p>
-                Aujourd'hui, avec plus de 10 ans d'expérience, je dirige des équipes de techniciens diplômés d'état <strong>(CQP & IRATA)</strong>. Nous apportons cette expertise unique d'aisance verticale et de savoir-faire technique sur vos chantiers les plus complexes.
+                Aujourd&apos;hui, avec plus de 10 ans d&apos;expérience, je dirige des équipes de techniciens diplômés d&apos;état <strong>(CQP & IRATA)</strong>. Nous apportons cette expertise unique d&apos;aisance verticale et de savoir-faire technique sur vos chantiers les plus complexes.
               </p>
             </div>
             <ul className="space-y-4 mb-8">
@@ -295,7 +284,7 @@ export default function Home() {
         <div className="container-custom mx-auto">
           <motion.div className="text-center mb-16" {...fadeInUp}>
             <h2 className="text-sm font-bold text-primary uppercase tracking-widest mb-2">Nos Activités</h2>
-            <h3 className="text-4xl md:text-5xl font-bold mb-4">4 DOMAINES D'EXPERTISE</h3>
+            <h3 className="text-4xl md:text-5xl font-bold mb-4">4 DOMAINES D&apos;EXPERTISE</h3>
             <p className="text-gray-400 max-w-2xl mx-auto">
               Une solution adaptée à chaque contrainte architecturale ou industrielle.
             </p>
@@ -416,7 +405,7 @@ export default function Home() {
                 <div className="absolute top-8 right-8 text-primary/20">
                   <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21L14.017 18C14.017 16.896 14.321 16.067 14.929 15.513C15.536 14.959 16.634 14.682 18.223 14.682L18.777 14.682L18.777 10.054L18.223 10.054C16.829 10.054 15.939 9.695 15.553 8.976C15.166 8.257 14.973 7.027 14.973 5.284L14.973 3L19.983 3L19.983 5.204C19.983 6.904 19.825 8.01 19.509 8.522C19.193 9.034 18.665 9.29 17.925 9.29L17.705 9.29C17.073 9.29 16.757 9.619 16.757 10.278L16.757 10.592L17.202 10.592C18.681 10.592 19.78 11.025 20.499 11.89C21.218 12.755 21.577 14.085 21.577 15.88L21.577 21L14.017 21ZM5.01697 21L5.01697 18C5.01697 16.896 5.32097 16.067 5.92897 15.513C6.53697 14.959 7.63397 14.682 9.22297 14.682L9.77697 14.682L9.77697 10.054L9.22297 10.054C7.82897 10.054 6.93897 9.695 6.55297 8.976C6.16697 8.257 5.97397 7.027 5.97397 5.284L5.97397 3L10.984 3L10.984 5.204C10.984 6.904 10.826 8.01 10.51 8.522C10.194 9.034 9.66597 9.29 8.92597 9.29L8.70597 9.29C8.07397 9.29 7.75797 9.619 7.75797 10.278L7.75797 10.592L8.20297 10.592C9.68197 10.592 10.781 11.025 11.5 11.89C12.219 12.755 12.578 14.085 12.578 15.88L12.578 21L5.01697 21Z" /></svg>
                 </div>
-                <p className="text-gray-300 italic mb-6 relative z-10">"{review.text}"</p>
+                <p className="text-gray-300 italic mb-6 relative z-10">&quot;{review.text}&quot;</p>
                 <div>
                   <h5 className="font-bold text-white">{review.name}</h5>
                   <span className="text-sm text-primary">{review.role}</span>
@@ -454,7 +443,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-white mb-2">La Sécurité dans le Monde du Cordiste</h3>
                 <p className="text-gray-300 line-clamp-2 mb-4">Découvrez les normes strictes et la formation rigoureuse derrière nos interventions.</p>
                 <Link href="/blog/securite-travaux-hauteur-cordiste" className="inline-flex items-center text-white hover:text-primary font-bold">
-                  Lire l'article <ArrowRight className="ml-2 w-4 h-4" />
+                  Lire l&apos;article <ArrowRight className="ml-2 w-4 h-4" />
                 </Link>
               </div>
             </div>
@@ -492,7 +481,7 @@ export default function Home() {
                 <h2 className="text-primary font-bold uppercase tracking-widest mb-2">Contactez-nous</h2>
                 <h3 className="text-4xl font-bold mb-8">PARLEZ-NOUS DE <br />VOTRE PROJET</h3>
                 <p className="text-gray-400 mb-8">
-                  Besoin d'un devis ou d'une information ? Remplissez le formulaire ou appelez-nous directement.
+                  Besoin d&apos;un devis ou d&apos;une information ? Remplissez le formulaire ou appelez-nous directement.
                 </p>
 
                 <div className="space-y-6">

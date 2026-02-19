@@ -43,7 +43,7 @@ export default function Videos() {
                             <div className="p-8">
                                 <h2 className="text-2xl font-bold text-white mb-4">Intervention Cordiste - Acces Alternatif</h2>
                                 <p className="text-gray-400">
-                                    Découvrez le professionnalisme et la technicité de nos équipes lors d'une intervention complexe.
+                                    Découvrez le professionnalisme et la technicité de nos équipes lors d&apos;une intervention complexe.
                                     Rigueur, sécurité et efficacité sont les maîtres-mots de notre approche du travail en hauteur.
                                 </p>
                             </div>

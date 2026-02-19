@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { ShieldCheck, ArrowRight, Home } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import type { Metadata } from 'next';
 
@@ -33,7 +33,7 @@ export default function BlogIndex() {
                     <div className="text-center mb-16">
                         <h1 className="text-4xl md:text-6xl font-bold mb-4">LE JOURNAL <span className="text-primary">VERTICAL</span></h1>
                         <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-                            Actualités, techniques et retours d'expérience sur les travaux d'accès difficile.
+                            Actualités, techniques et retours d&apos;expérience sur les travaux d&apos;accès difficile.
                         </p>
                     </div>
 
@@ -66,7 +66,7 @@ export default function BlogIndex() {
                                             {post.excerpt}
                                         </p>
                                         <div className="flex items-center text-primary font-bold text-sm uppercase tracking-wider group-hover:translate-x-2 transition-transform">
-                                            Lire l'article <ArrowRight className="ml-2 w-4 h-4" />
+                                            Lire l&apos;article <ArrowRight className="ml-2 w-4 h-4" />
                                         </div>
                                     </div>
                                 </Link>
